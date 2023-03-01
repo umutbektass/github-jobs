@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "title":"Yazılım Geliştirme Uzmanı",
+        "description":"Yazılımcı aranıyor.",
+        "time": ["Full-time","Part-time"],
+        "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+        "şirket":"Etiya"
+        
+},
+{
+    "id":1,
+    "title":"Yazılım Geliştirme Uzmanı",
+    "description":"Yazılımcı aranıyor.",
+    "time": ["Full-time","Part-time"],
+    "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+    "şirket":"Etiya"
+    
+},
+{
+    "id":1,
+    "title":"Yazılım Geliştirme Uzmanı",
+    "description":"Yazılımcı aranıyor.",
+    "time": ["Full-time","Part-time"],
+    "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+    "şirket":"Etiya"
+    
+},
+{
+"id":1,
+"title":"Yazılım Geliştirme Uzmanı",
+"description":"Yazılımcı aranıyor.",
+"time": ["Full-time","Part-time"],
+"lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+"şirket":"Etiya"
+
+},
+{
+    "id":1,
+    "title":"Yazılım Geliştirme Uzmanı",
+    "description":"Yazılımcı aranıyor.",
+    "time": ["Full-time","Part-time"],
+    "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+    "şirket":"Etiya"
+    
+},
+{
+"id":1,
+"title":"Yazılım Geliştirme Uzmanı",
+"description":"Yazılımcı aranıyor.",
+"time": ["Full-time","Part-time"],
+"lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+"şirket":"Etiya"
+
+},{
+    "id":1,
+    "title":"Yazılım Geliştirme Uzmanı",
+    "description":"Yazılımcı aranıyor.",
+    "time": ["Full-time","Part-time"],
+    "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+    "şirket":"Etiya"
+    
+},
+{
+"id":1,
+"title":"Yazılım Geliştirme Uzmanı",
+"description":"Yazılımcı aranıyor.",
+"time": ["Full-time","Part-time"],
+"lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+"şirket":"Etiya"
+
+},
+{
+    "id":1,
+    "title":"Yazılım Geliştirme Uzmanı",
+    "description":"Yazılımcı aranıyor.",
+    "time": ["Full-time","Part-time"],
+    "lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+    "şirket":"Etiya"
+    
+},
+{
+"id":1,
+"title":"Yazılım Geliştirme Uzmanı",
+"description":"Yazılımcı aranıyor.",
+"time": ["Full-time","Part-time"],
+"lokasyon":[{"ülke":"Türkiye","İl":"İstanbul","İlçe":["İstanbul Avr.","İnstabul Anadolu"]}],
+"şirket":"Etiya"
+
+}
+
+]
