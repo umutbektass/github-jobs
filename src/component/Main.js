@@ -3,9 +3,13 @@ import Filters from './Filters'
 import {DropdownItem} from 'reactstrap'
 import { FaGlobeEurope } from 'react-icons/fa';
 import jobs from '../api/post.json'
+import { getPost, post} from '../redux/post/postSlice';
+import { useSelector } from 'react-redux';
 
 
 function Main() {
+  const postList = useSelector(post)
+  console.log(postList)
   return (
     <div>
         <main>

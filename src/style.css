@@ -255,27 +255,35 @@ header .header-form{
 
 
 /* REGISTER */
-.register input{
+.register input,
+.login input
+{
     
     padding:1.5rem 1rem;
-    width:50rem;
+    width:45rem;
     margin: 1rem 0;
     border: 1px solid #e0d6d6;
     border-radius: 5px;
     font-size: 1.5rem;
 }
-.register input::placeholder {
+.register input::placeholder,
+.login input::placeholder
+{
    
     font-size: 1.5rem;
     padding: 0 1rem;
     color: rgb(48, 46, 46);
 }
-.register button{
+.register button,
+.login button
+{
     padding: 0.5rem 2.7rem;
     font-size: 1.5rem;
     margin: 1rem 0;
 }
-.register Form{
+.register Form,
+.login form
+{
     margin: 2rem 0;
    
     display: flex;
@@ -283,3 +291,162 @@ header .header-form{
     width: 100%;
     align-items: center;
 }
+
+/* dashboard */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 1.5rem;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+  }
+  #customers tr:first-child th{
+    width: 10%;
+  }
+  .card .card-title{
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-title .search{
+    display: flex;
+  }
+ #search-btn{
+   
+    display: block;
+   border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.5rem;
+ }
+
+ /* dashboard add join form */
+
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+ }
+ /* form input,
+   .form-floating input{
+    padding:1.5rem 1rem;
+    width:45rem;
+    margin: 1rem 0;
+    border: 1px solid #e0d6d6;
+    border-radius: 5px;
+    font-size: 1.5rem;
+ }
+ form input::placeholder
+{
+   
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: rgb(48, 46, 46);
+} */
+
+form .form-floating .form-control{
+    height: 4.2rem;
+}
+
+  .location-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.location-list .location-select{
+    height: 3.5rem;
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+    width: 80%;
+   float:left
+
+    
+}
+.location-list div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 0px auto;
+}
+.location-list div:nth-child(2) button{
+    width: 7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    padding: 0.1rem 0.2rem;
+    margin: 0 1rem;
+    position: absolute;
+    top: -0.1rem;
+    right: 0rem;
+  
+}
+.lokasyon-main{
+    margin: 0px auto;
+}
+
+
+.location-list .card-body{
+    display: flex;
+}
+.location-list .card-body a{
+    color:grey;
+    font-weight: 900;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    
+}    
+.time-select .form-check-input{
+    margin: 0.7rem 0.5rem;
+}
+.time-select{
+    display: flex;
+    font-size: 1.8rem;
+    margin: 0.5rem 0rem;
+    margin-right: auto;
+}
+
+
+
+  
+  @media (max-width:767px){
+    #customers tr,
+    #customers th,
+    #customers td{
+        display: block;
+      
+    }
+    #customers thead{
+        display: none;
+    }
+    #customers td{
+        text-align: right;
+    }
+    #customers tr{
+        margin: 20px 25px;
+    }
+    #customers td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 27px;
+        font-weight: 700;
+    }
+  }
