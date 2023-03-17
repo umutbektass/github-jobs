@@ -113,6 +113,22 @@
     "Zonguldak"
   ],
   "post": [
- 
+    {
+      "baslik": "Yazılım Geliştirme Uzmanı",
+      "lokasyon": [
+        "İstanbul",
+        "Kastamonu"
+      ],
+      "zaman": [
+        "full",
+        "remote"
+      ],
+      "ustbilgi": "uuuuu",
+      "aciklama": "uuuuu",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 6
+    }
   ]
 }

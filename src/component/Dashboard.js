@@ -3,12 +3,15 @@ import { FaShoppingBag } from "react-icons/fa";
 import { useFormik,Field,Form,Formik ,FormikProps ,FieldArray } from 'formik';
 import axios from 'axios';
 import { addPost } from '../redux/post/postSlice';
-import { useru}  from '../redux/users/usersSlice';
-import { useSelector } from 'react-redux';
+
 
 function Dashboard() {
-  const usersList = useSelector(state=>state.users.users)
-  console.log(usersList)
+    let storageUser =JSON.parse(localStorage.getItem("userId"))
+    let storageUserId = storageUser.id
+    let storageUserName = storageUser.sirketAdi
+   
+
+  
   const search=""
   const [ilListesi,setİlListesi]=useState([])
 
@@ -16,7 +19,7 @@ function Dashboard() {
     axios.get("http://localhost:3002/illistesi").then(res=>setİlListesi(res.data))
     
   },[])
-  console.log(useru)
+  
     
   return (
     <div className="dashboard">
@@ -32,7 +35,7 @@ function Dashboard() {
       </div>
       <div class="modal-body">
       <Formik
-       initialValues={{location:[],time:[],ustbilgi:"",baslik:"",aciklama:"",tecrube:"",userId:localStorage.getItem("userId")}}
+       initialValues={{location:[],time:[],ustbilgi:"",baslik:"",aciklama:"",tecrube:"",userId:storageUserId,sirketAdi:storageUserName}}
        onSubmit={(values, actions) => {
          setTimeout(() => {
            alert(JSON.stringify(values, null, 2));
@@ -66,7 +69,7 @@ function Dashboard() {
            <Field as="select" name="color"
            onChange={props.handleChange}
            onBlur={props.handleBlur}
-           value={props.values.color}
+           
             className="location-select">
              <option value="red">Lütfen İl Seçiniz.</option>
              {
@@ -108,10 +111,6 @@ function Dashboard() {
                     )                    
                   }
                   </div>
-                   {/* <button className="btn btn-primary"
-                   onClick={()=>props.values.location.indexOf(props.values.color) >= 0 ? null : 
-                    push(props.values.color) } 
-                  type="button">Ekle</button>  */}
              </>
             )}
              
@@ -121,9 +120,9 @@ function Dashboard() {
             <div className="time-select">   
       <div>
         <label>
-            <Field type="checkbox" value="full" name="time" className="form-check-input"></Field>Full Time</label></div>
-           <div><label><Field type="checkbox" value="part" name="time" className="form-check-input"></Field>Part Time</label> </div> 
-            <div><label><Field type="checkbox" value="remote" name="time" className="form-check-input"></Field>Remote</label>
+            <Field type="checkbox" value="Full-Time" name="time" className="form-check-input"></Field>Full Time</label></div>
+           <div><label><Field type="checkbox" value="Part-Time" name="time" className="form-check-input"></Field>Part Time</label> </div> 
+            <div><label><Field type="checkbox" value="Remote" name="time" className="form-check-input"></Field>Remote</label>
             </div> 
             </div>
             <div class="form-floating w-100">

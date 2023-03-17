@@ -3,7 +3,7 @@ import axios from "axios";
 
 const isLogin= localStorage.getItem("login") !=null? JSON.parse(localStorage.getItem("login")) : false
 
-const userId= localStorage.getItem("userId") !=null? JSON.parse(localStorage.getItem("userId")) : []
+ const userId= localStorage.getItem("userId") !=null? JSON.parse(localStorage.getItem("userId")) : []
 
  
 
@@ -29,12 +29,14 @@ export const usersSlice = createSlice({
     },
     reducers:{
         loginTrue:(state,actions)=>{
-            localStorage.setItem("login",true)
-            localStorage.setItem("userId",actions.payload)
-            
+             localStorage.setItem("login",true)
+          localStorage.setItem("userId",JSON.stringify(actions.payload))
+          let value = (JSON.parse(localStorage.getItem("userId")))
+            console.log(value.id , value.sirketAdi)
         },
         loginFalse:(state,action)=>{
            localStorage.setItem("login",false)
+           localStorage.removeItem("userId")
         }
     },
     extraReducers:{

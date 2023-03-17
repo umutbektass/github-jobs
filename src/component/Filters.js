@@ -33,9 +33,9 @@ function Filters() {
     {({ values }) => (
         <Form>  
             <div className="filters">
-             <div className="form-control">   <label>
+             <div>   <label>
             <Field type="checkbox" value="full" name="time" className="form-check-input"></Field>Full Time</label></div>
-           <div className="form-control"><label><Field type="checkbox" value="part" name="time" className="form-check-input"></Field>Part Time</label> </div> 
+           <div><label><Field type="checkbox" value="part" name="time" className="form-check-input"></Field>Part Time</label> </div> 
             <div><label><Field type="checkbox" value="remote" name="time" className="form-check-input"></Field>Remote</label></div> 
             <div className="search">
                 <label>LOCATION</label>

@@ -14,6 +14,7 @@ import { useDispatch,useSelector} from 'react-redux';
 import { loginFalse} from './redux/users/usersSlice';
 import { FaUser} from "react-icons/fa";
 import Dashboard from './component/Dashboard';
+import Jobsdetail from './pages/Jobsdetail';
 
 function App() {
   const dispatch = useDispatch()
@@ -84,6 +85,7 @@ function App() {
 <Route path="/isveren/kayit" element={<EmployerRegister></EmployerRegister>}></Route>
 <Route path="/isveren/giris" element={<EmployerSignln></EmployerSignln>}></Route>
 <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+<Route path="/is-ilani/:id" element={<Jobsdetail></Jobsdetail>}></Route>
     </Routes>
       <div>
         {/* <FaSlidersH></FaSlidersH> */}

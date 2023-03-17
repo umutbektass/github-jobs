@@ -23,9 +23,10 @@ function EmployerSignln() {
     if(userCheck){
       if(userCheck.password==values.password){
         setError("giriş başarılı")
-        dispatch(loginTrue(userCheck.id))
+        dispatch(loginTrue(userCheck))
         navigate("/dashboard")
-       refreshPage()
+        refreshPage()
+       
        
         
       }
