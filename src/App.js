@@ -70,12 +70,12 @@ function App() {
       
         
         </nav>
-        <section>
+        {/* <section>
           <div className="header-form">
             <input placeholder="title"></input>
             <button className="btn btn-primary">Search</button>
           </div>
-        </section>
+        </section> */}
       </header>
    
     

@@ -3,12 +3,30 @@ import { FaShoppingBag } from "react-icons/fa";
 import { useFormik,Field,Form,Formik ,FormikProps ,FieldArray } from 'formik';
 import axios from 'axios';
 import { addPost } from '../redux/post/postSlice';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 
 function Dashboard() {
     let storageUser =JSON.parse(localStorage.getItem("userId"))
     let storageUserId = storageUser.id
     let storageUserName = storageUser.sirketAdi
+
+    const [icerik, setİcerik] = useState("");
+    const modules={
+      toolbar:[
+        [{ 'header': [1,2,3,false]}],
+        [{ 'font': [] }],
+        ['link', 'image','video'],
+        ['bold', 'italic', 'underline', 'strike','blockquote'],
+        [
+          {'list': 'ordered'},
+          {'list': 'bullet'},
+          
+        ],
+       
+      ]
+    }
    
 
   
@@ -35,12 +53,13 @@ function Dashboard() {
       </div>
       <div class="modal-body">
       <Formik
-       initialValues={{location:[],time:[],ustbilgi:"",baslik:"",aciklama:"",tecrube:"",userId:storageUserId,sirketAdi:storageUserName}}
+       initialValues={{location:[],time:[],baslik:"",tecrube:"",userId:storageUserId,sirketAdi:storageUserName}}
        onSubmit={(values, actions) => {
          setTimeout(() => {
            alert(JSON.stringify(values, null, 2));
            actions.setSubmitting(false);
-           addPost(values)
+          addPost(values,icerik)
+          
          }, 1000);
        }}
      >
@@ -125,6 +144,9 @@ function Dashboard() {
             <div><label><Field type="checkbox" value="Remote" name="time" className="form-check-input"></Field>Remote</label>
             </div> 
             </div>
+
+
+                    {/* ÜST BİLGİ
             <div class="form-floating w-100">
   <textarea class="form-control" placeholder="Leave a comment here"  style={{height:"6rem"}}
    id="ustbilgi"
@@ -134,10 +156,11 @@ function Dashboard() {
    value={props.values.ustbilgi}
   ></textarea>
   <label for="floatingTextarea2" style={{fontSize:"1.2rem"}}>Üst bilgi</label>
+</div> */}
 
-</div>
 
-<div class="form-floating w-100 my-2">
+                  {/* ürün açıklaması */}
+{/* <div class="form-floating w-100 my-2">
   <textarea class="form-control" placeholder="Leave a comment here"  style={{height:"8rem"}}
    id="aciklama"
    name="aciklama"
@@ -146,13 +169,27 @@ function Dashboard() {
    value={props.values.aciklama}
   ></textarea>
   <label for="floatingTextarea2" style={{fontSize:"1.2rem"}}>İlan Açıklaması</label>
+</div> */}
+<div className="my-5 rich-text w-100" id="toolbar">
+<div className="editor mb-5">
+<ReactQuill theme="snow" value={icerik} onChange={setİcerik} className="editor-input my-2" modules={modules}
+id="aciklama"
+name="aciklama"
+/>;
 
 </div>
+</div>
+
+
+
+
+
+
 <Field as="select" name="tecrube"
            onChange={props.handleChange}
            onBlur={props.handleBlur}
            value={props.values.tecrube}
-            className="fs-4">
+            className="fs-4 mt-5">
              <option >Lütfen Tecrübe seçiniz</option>
              <option value="tecrubeli / tecrubesiz" >Tecrubeli / Tecrübesiz</option>
              <option value="0-1" >0-1 yıl </option>
@@ -163,7 +200,7 @@ function Dashboard() {
              
              
            </Field>
-
+           
       
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary fs-5 p-2" data-bs-dismiss="modal">Kapat</button>
@@ -275,6 +312,7 @@ function Dashboard() {
 </table>
 </div>
 </div>
+
     </div>
  
   )

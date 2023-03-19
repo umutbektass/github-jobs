@@ -25,7 +25,7 @@ function Main() {
     dispatch(getPost())
   },[])
 
-  const umut=(u)=>{
+  const linkGenerate=(u)=>{
     let storageUserId = u.userId
     let storageUserName = u.userName
     let baslik = u.baslik
@@ -39,6 +39,12 @@ function Main() {
   }
   return (
     <div>
+      <section className="header-bg">
+          <div className="header-form">
+            <input placeholder="title"></input>
+            <button className="btn btn-primary">Search</button>
+          </div>
+        </section>
         <main>
       <div className="flex-items">
         <div className="column-1">
@@ -55,7 +61,7 @@ function Main() {
               // {umut(u)/:u.id}
                   // {umut(u)}
                   // "/is-ilani/umut"
-              <Link to={umut(u)} style={{textDecoration:"none"}}>
+              <Link to={linkGenerate(u)} style={{textDecoration:"none"}}>
               <div className="card">
               
                 

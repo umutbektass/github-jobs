@@ -76,7 +76,7 @@ header h2{
 header h2>span{
     font-weight: 350;
 }
-header section{
+.header-bg{
     background-image: url("./img/headerbackground.jpg");
     height: 20vh;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ header section{
     margin: 0 7rem;
     display: block;
 }
-header .header-form{
+.header-bg .header-form{
     position: relative;
     display: flex;
     width: 100%;
@@ -450,7 +450,16 @@ form .form-floating .form-control{
     text-align: start;
 }
 
+.jobs-description{
+    font-size: 1.7rem;
+}
 
+.editor{
+    height: 45vh;
+}
+.editor .editor-input{
+    height: 100%;
+}
 
   
   @media (max-width:767px){

@@ -129,6 +129,170 @@
       "userId": 1,
       "userName": "bektaş teknoloji",
       "id": 6
+    },
+    {
+      "baslik": "Yazılım Uzmanı",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "ustbilgi": "25 yılda yazdığımız milyonlarca satır koddan oluşan yazılımlarımızı, yüzlerce kurumsal müşterimizde binlerce kullanıcımız beğenerek kullanıyor.\n\n50 den fazla Teknopark ’da 5000 ‘in üzerinde Ar-Ge, Yazılım ve Tasarım firmasının kullandığı ARGEPORTAL ile birçok üniversite, inovasyon merkezi ve kuluçka merkezi tarafından kullanılan İnovasyon Yönetim Bilgi Sistemi yazılımlarımızın geliştirme süreçlerinde görev alacak yeni ekip arkadaşları arıyoruz.\n\nYıldız Teknik Üniversitesi Davutpaşa Teknopark ofisimizde görevlendirilmek üzere, işine tutku ile bağlı olan ekibimizde yer alarak ekosistem içerisinde yeteneklerinizi geliştirerek uzmanlaşmak istiyorsanız ve ilanımızda belirtilen niteliklere sahip olduğunuzu düşünüyorsanız başvurularınızı bekliyoruz.",
+      "aciklama": "Üniversitelerin Bilgisayar Mühendisliği, Matematik Mühendisliği veya benzeri bölümlerinden mezun,\nYazılım geliştirme konusunda en az 1 yıl deneyimli,\nNesne tabanlı yazılım geliştirme, çok katmanlı sistem ve yazılım mimarisi konularında bilgi sahibi,\nMicrosoft ASP.NET, .NET CORE geliştirme ortamına, C#, MVC, Entity Framework, Web API, Web Services konularına hâkim,\nİlişkisel veritabanı deneyimine sahip, MS SQL Server mimarisi ve programlaması konusunda bilgi sahibi,\nWeb Teknolojileri konusunda HTML5, CSS3, Bootstrap, Jquery, Javascript konularında bilgi sahibi,\nVersiyon Kontrol Sistemi (TFS, GIT, SVN) ile çalışma deneyimi olan.",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 7
+    },
+    {
+      "baslik": "Yazılım Geliştirme Uzmanı",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 8
+    },
+    {
+      "baslik": "Yazılım Geliştirme Uzmanı",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 9
+    },
+    {
+      "baslik": "Yazılım Geliştirme Uzmanı",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 10
+    },
+    {
+      "baslik": "",
+      "lokasyon": [],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 11
+    },
+    {
+      "baslik": "",
+      "lokasyon": [],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 12
+    },
+    {
+      "baslik": "",
+      "lokasyon": [],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 13
+    },
+    {
+      "baslik": "yazılım programcısı",
+      "lokasyon": [
+        "İstanbul",
+        "Kastamonu"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "id": 14
+    },
+    {
+      "baslik": "yazılım uz",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "aciklama": "",
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "icerik": "<p>qwfqwfwqwf</p><p>qwfqwfwqf</p><p>qfqwfqfww</p><p><strong>UMUT BEKTAŞ</strong></p>",
+      "id": 15
+    },
+    {
+      "baslik": "Yazılım Geliştirici",
+      "lokasyon": [
+        "İstanbul",
+        "Kastamonu"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Part-Time",
+        "Remote"
+      ],
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "icerik": "<p>Halihazırda aktif müşterileri olan masaüstü uygulamamamızı web platformuna taşımak yayınlamak üzere, mevcut programın geliştirilmesinde de görevlendirilecek yazılım uzmanı arkadaşlar arıyoruz.</p><ul><li>Üniversitelerin Bilgisayar Mühendisliği, Yazılım Mühendisliği, Elektronik Mühendisliği veya Bilgisayar Programcılığı bölümlerinden mezun,</li><li>Alanında en az 3 yıl tecrübeye sahibi,</li><li>Java&nbsp;programlama dilini geliştirmelerinde aktif kullanmış, (Angular)</li><li>C# winforms&nbsp;konusunda tectübeli</li><li>MS SQL konusunda en az 3 yıl deneyimli</li><li>Mobil uygulama geliştirme konusunda tecrübeli</li><li>Web servis geliştirme, kullanma ve test etmeye dair standartlar&nbsp;(REST, SOAP, WSDL, vb.)&nbsp;hakkında bilgi sahibi,</li><li>Tercihen&nbsp;Mikroservis&nbsp;mimarisi,&nbsp;Docker&nbsp;veya&nbsp;Kubernetes&nbsp;teknolojileri ile çalışma deneyimi olan,</li><li>Takım çalışmasına yatkın,</li><li>Teknik literatürü takip edebilecek düzeyde İngilizce bilgisi olan,</li><li>Erkek adaylar için zorunlu askerlik hizmetini tamamlamış,</li><li>Seyahat engeli bulunmayan</li><li>Home ofis çalışma ya açık</li></ul><p><br></p>",
+      "id": 16
+    },
+    {
+      "baslik": "Yazılım Uzman Prof.",
+      "lokasyon": [
+        "İstanbul"
+      ],
+      "zaman": [
+        "Full-Time",
+        "Remote"
+      ],
+      "tecrube": "tecrubeli / tecrubesiz",
+      "userId": 1,
+      "userName": "bektaş teknoloji",
+      "icerik": "<ul><li>Üniversitelerin mühendislik bölümlerinden mezun,</li><li>En az&nbsp;3 yıl&nbsp;yazılım geliştirme deneyimi,</li><li>C#,&nbsp;Asp.Net,&nbsp;MVC,&nbsp;WebAPI,&nbsp;JScript&nbsp;ve&nbsp;CSS&nbsp;konularına hakim,</li><li>Tercihen&nbsp;SQL&nbsp;veri tabanında tecrübeli,</li><li>Rest API&nbsp;mimarilerinde, protokollerinde ve teknolojilerinde tecrübeli</li><li>SDLC&nbsp;ve&nbsp;Agile&nbsp;metodolojileri ile proje geliştirmiş,</li><li>Nesne-tabanlı programlama hakkında bilgi ve deneyim sahibi</li><li>Tercihen&nbsp;Mikroservis&nbsp;mimarisi,&nbsp;Docker veya Kubernetes&nbsp;teknolojileri ile çalışma deneyimi olan,</li><li>Web servis geliştirme, kullanma ve test etmeye dair standartlar (REST, SOAP, WSDL, vb.) hakkında bilgi sahibi,</li><li>Web tabanlı projede yer almış, tercihen e-ticaret sitesi geliştirmiş.</li><li>Entity Framework, LINQ&nbsp;ile proje geliştirmiş yada diğer ORM araçları ile çalışmış,</li><li>Dağıtık ve çok katmanlı yazılım mimarileri konularında bilgisi olan,</li><li>OOP&nbsp;ve&nbsp;SOLID&nbsp;kavramlarına hâkim,</li><li>Git,&nbsp;SVN&nbsp;versiyon&nbsp;kontrol sistemini kullanmış,</li><li>Software Development Life&nbsp;Cycle&nbsp;tecrübesi bulunan,</li><li>Analitik düşünebilen, bütünsel bakış açısına sahip, yenilikçi, problem çözme becerisi yüksek,</li><li>Tercihen iyi düzeyde İngilizce bilen,</li><li>Erkek adaylar için askerliğini tamamlamış,</li></ul><p><br></p><p><br></p><p><br></p><p><u>İş Tanımı:</u></p><p>Firmamıza ait mevcut yazılımların güncellenmesi, hataların tespit edilmesi ve giderilmesi, yeni özelliklerin geliştirilmesi gibi tümback-end&nbsp;vefront -endyazılım geliştirme ve destek çalışmalarında yer almak.&nbsp;</p><ul><li>Geliştirme süreci boyunca test, canlıya alma,</li><li>Bakım ve destek süreçlerinde teknik ekipler ile iş birliği içinde olmak</li><li>İş analizinde belirlenen ürün ihtiyaçları doğrultusunda SDLC (Software Development Life Cycle) süreçlerine uygun Teknik tasarım belgeleri, akış şemaları, düzenler, diyagramlar, çizelgeler, kod yorumları ve açık kod geliştirerek çözümleri belgelemek ve çözüm üretmek, günlük destek sağlamak,</li><li>Code reviev ve clean code süreçlerini yürütmek,</li><li>Dahili ve harici kurslar, kılavuzlar ve yeni uygulamalar aracılığıyla bilgi ve becerileri düzenli olarak güncellemek aynı zamanda tamamlanan işlerin raporlarını zamanında ve doğru olarak sunmak.</li><li>Veri tabanı yönetimi ve bakım süreçlerini yürütmek.</li></ul><p><br></p><p><br></p><p><br></p><p>* İlanımız genel başvuru olup<em>&nbsp;uzaktan, yerinde ve hibrit</em>&nbsp;çalışma opsiyonlarını&nbsp;içermektedir, ancak bu kriter danışmanlık verilen iş ortaklarımız tarafından belirlenmektedir.</p><p>*&nbsp;CV' lerinizi&nbsp;web sitemiz&nbsp;üzerindeki size uygun ilan içeriğinden de başvurarak bizimle paylaşabilirsiniz.</p><p><br></p>",
+      "id": 17
     }
   ]
 }

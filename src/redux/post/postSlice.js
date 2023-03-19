@@ -1,8 +1,8 @@
 import { createSlice,createAsyncThunk} from "@reduxjs/toolkit";
 import axios from "axios";
 
- export const addPost = async(data)=>{
-    const post = {"baslik":data.baslik,"lokasyon":data.location,"zaman":data.time,"ustbilgi":data.ustbilgi,"aciklama":data.aciklama,"tecrube":data.tecrube,"userId":data.userId,"userName":data.sirketAdi}
+ export const addPost = async(data,icerik)=>{
+    const post = {"baslik":data.baslik,"lokasyon":data.location,"zaman":data.time,"ustbilgi":data.ustbilgi,"aciklama":data.aciklama,"tecrube":data.tecrube,"userId":data.userId,"userName":data.sirketAdi,"icerik":icerik }
     await axios.post("http://localhost:3002/post",post)}
 
 
